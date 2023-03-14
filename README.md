@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <form method="post" action="//submit.form" onSubmit="return validateForm();">
 <div style="max-width: 400px;">
 </div>
@@ -40,3 +42,4 @@ var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.
 return isEmpty(email) || re.test(email);
 }
 </script>
+</html>
