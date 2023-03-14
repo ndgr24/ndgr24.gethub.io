@@ -10,17 +10,14 @@
 Your message was sent, thank you!
 </div>
 <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
-<div class="row">
-<div class="col-md-12">
-<div class="form-group">
-<input type="text" class="form-control" name="name" id="name" placeholder="Name">
-</div>
-</div>
+
+ 
 <div class="col-md-12">
 <div class="form-group">
 <input type="email" class="form-control" name="email" id="email" placeholder="Email">
 </div>
 </div>
+ 
 <div class="col-md-12">
 <div class="form-group">
 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
